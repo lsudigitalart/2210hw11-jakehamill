@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-  background(0, 200, 0, 100);
+  background(0, 200, 0, 200);
   for (var i = 0; i < homicide.getRowCount(); i++) {
     var timedist = homicide.getNum(i, "Time");
     Timer(timedist);
